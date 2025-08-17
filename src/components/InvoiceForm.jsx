@@ -141,7 +141,7 @@ const InvoiceForm = () => {
        <div>
         
              <Image
-            src="/invoice_icon.png"  
+           src={`${process.env.PUBLIC_URL}/invoice_icon.png`}
             alt="Logo"
             width={50}
             className="me-1"
